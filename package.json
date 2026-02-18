@@ -1,0 +1,25 @@
+{
+  "name": "figboard",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rafaeldfigueiredo/figboard#readme",
+  "bugs": {
+    "url": "https://github.com/rafaeldfigueiredo/figboard/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rafaeldfigueiredo/figboard.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "createFile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch-path=. littleserver.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
